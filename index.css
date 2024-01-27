@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffccd5;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff0f3;
+}
+.title-container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom right,#ff8fa3,#ffb3c1,#ffccd5);    ;
+}
+#image-container{
+    margin-top: 30px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+#image{
+    width: 100%;
+    border-radius: 50%;
+}
+.title{
+    font-size: 50px;
+}
+.subtitle{
+    font-size: 40px;
+}
+.tagline{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+h3{ 
+    margin-top: 40px;
+    display: inline;
+    border-bottom: 4px solid rgb(192, 43, 192);
+}
+.objective{
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 15px;
+}
+#objective-title{
+    margin-left: 50px;
+}
+#skill-title{
+    margin-left: 10px;
+}
+.skill-container{
+    padding: 6px;
+}
+.skill{
+    background-color:#fff0f3 ;
+    padding: 6px 20px;
+    margin-left: 16px;
+}
+.project-image{
+    width: 100%;
+}
+h5{
+    font-weight: bolder;
+}
+.technology-used{
+    background-color:#fff0f3 ;
+    padding: 6px 20px;
+    margin-right: 20px;
+    margin-left: 6px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    border: 2px solid rgb(192, 43, 192);
+    padding: 8px 6px ;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: rgb(192, 43, 192);
+}
+button a:hover{
+    color: white;
+}
+footer{
+    background-color: #fff0f3;
+    margin: 0;
+    padding: 10px 6px;
+}
+@media only screen and (max-width:600px){
+    .title{
+        font-size: 24px;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+    .objective{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 14px;
+    }
+    .tagline{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    .title-container{
+        height: 500px;
+    }
+    .skill{
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-right: 10px;
+    }
+    .skill-container{
+        padding: 0;
+        padding-left: 10px;
+    }
+    #objective-title{
+        margin-left: 0px;
+    }
+    #skill-title{
+        margin-left: 4px;
+    }
+}
